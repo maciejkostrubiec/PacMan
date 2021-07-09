@@ -1,0 +1,3688 @@
+# depslib dependency file v1.0
+1487675316 source:c:\users\w510\desktop\pl_szkielet03_win\cube.cpp
+	"cube.h"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\cube.h
+	"model.h"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\simd\integer.h
+
+1487688962 c:\users\w510\desktop\pl_szkielet03_win\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\constants.h
+
+1487675316 source:c:\users\w510\desktop\pl_szkielet03_win\detailed_cube.cpp
+	"detailed_cube.h"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\detailed_cube.h
+	"model.h"
+
+1456501319 source:c:\users\w510\desktop\pl_szkielet03_win\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\w510\desktop\pl_szkielet03_win\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1487675316 source:c:\users\w510\desktop\pl_szkielet03_win\model.cpp
+	"model.h"
+
+1487675316 source:c:\users\w510\desktop\pl_szkielet03_win\sphere.cpp
+	"sphere.h"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\sphere.h
+	"model.h"
+
+1487675316 source:c:\users\w510\desktop\pl_szkielet03_win\teapot.cpp
+	"teapot.h"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\teapot.h
+	"model.h"
+
+1487675316 source:c:\users\w510\desktop\pl_szkielet03_win\torus.cpp
+	"torus.h"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\torus.h
+	"model.h"
+
+1497608156 source:c:\users\w510\desktop\pl_szkielet03_win\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	<time.h>
+	<windows.h>
+	<cmath>
+	"constants.h"
+	"allmodels.h"
+	"myCube.h"
+
+1469354378 c:\users\w510\desktop\pl_szkielet03_win\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\w510\desktop\pl_szkielet03_win\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\w510\desktop\pl_szkielet03_win\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+
+1460274702 c:\users\w510\desktop\pl_szkielet03_win\mycube.h
+
+1487675316 source:c:\users\w510\documents\pacman\cube.cpp
+	"cube.h"
+
+1487675316 c:\users\w510\documents\pacman\cube.h
+	"model.h"
+
+1487675316 c:\users\w510\documents\pacman\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\w510\documents\pacman\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\w510\documents\pacman\glm\glm\simd\integer.h
+
+1487688962 c:\users\w510\documents\pacman\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1487675316 c:\users\w510\documents\pacman\constants.h
+
+1487675316 source:c:\users\w510\documents\pacman\detailed_cube.cpp
+	"detailed_cube.h"
+
+1487675316 c:\users\w510\documents\pacman\detailed_cube.h
+	"model.h"
+
+1456501319 source:c:\users\w510\documents\pacman\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\w510\documents\pacman\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1497608962 source:c:\users\w510\documents\pacman\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	<time.h>
+	<windows.h>
+	<cmath>
+	"constants.h"
+	"allmodels.h"
+	"myCube.h"
+
+1469354378 c:\users\w510\documents\pacman\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\w510\documents\pacman\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\w510\documents\pacman\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+
+1487675316 c:\users\w510\documents\pacman\sphere.h
+	"model.h"
+
+1487675316 c:\users\w510\documents\pacman\teapot.h
+	"model.h"
+
+1487675316 c:\users\w510\documents\pacman\torus.h
+	"model.h"
+
+1460274702 c:\users\w510\documents\pacman\mycube.h
+
+1487675316 source:c:\users\w510\documents\pacman\model.cpp
+	"model.h"
+
+1487675316 source:c:\users\w510\documents\pacman\sphere.cpp
+	"sphere.h"
+
+1487675316 source:c:\users\w510\documents\pacman\teapot.cpp
+	"teapot.h"
+
+1487675316 source:c:\users\w510\documents\pacman\torus.cpp
+	"torus.h"
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\cube.cpp
+	"cube.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\cube.h
+	"model.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1498318767 c:\users\patryk\downloads\pacman\pacman\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\_swizzle.hpp
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\_swizzle_func.hpp
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec2.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec3.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec4_simd.inl
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat2x3.inl
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat2x4.inl
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat3x2.inl
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat3x4.inl
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x2.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x3.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_mat4x4_simd.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_vec1.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_vector_relational_simd.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1498318767 c:\users\patryk\downloads\pacman\pacman\glm\glm\simd\exponential.h
+	"platform.h"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1498318767 c:\users\patryk\downloads\pacman\pacman\glm\glm\simd\common.h
+	"platform.h"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1498318767 c:\users\patryk\downloads\pacman\pacman\glm\glm\simd\geometric.h
+	"common.h"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1498318767 c:\users\patryk\downloads\pacman\pacman\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_trigonometric_simd.inl
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\type_half.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_packing_simd.inl
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1498318767 c:\users\patryk\downloads\pacman\pacman\glm\glm\simd\integer.h
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\constants.h
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\detailed_cube.cpp
+	"detailed_cube.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\detailed_cube.h
+	"model.h"
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1498326973 source:c:\users\patryk\downloads\pacman\pacman\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	<time.h>
+	<windows.h>
+	<cmath>
+	"constants.h"
+	"allmodels.h"
+	"myCube.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1498318765 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\constants.inl
+	<limits>
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\quaternion_simd.inl
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1498318766 c:\users\patryk\downloads\pacman\pacman\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\sphere.h
+	"model.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\teapot.h
+	"model.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\torus.h
+	"model.h"
+
+1498318764 c:\users\patryk\downloads\pacman\pacman\mycube.h
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\model.cpp
+	"model.h"
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\sphere.cpp
+	"sphere.h"
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\teapot.cpp
+	"teapot.h"
+
+1498318764 source:c:\users\patryk\downloads\pacman\pacman\torus.cpp
+	"torus.h"
+
+1498315166 source:c:\users\w510\videos\pacman\cube.cpp
+	"cube.h"
+
+1498315166 c:\users\w510\videos\pacman\cube.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\_swizzle.hpp
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\_swizzle_func.hpp
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec2.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec3.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec4_simd.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat2x3.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat2x4.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat3x2.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat3x4.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x2.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x3.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_mat4x4_simd.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_vec1.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_vector_relational_simd.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\simd\exponential.h
+	"platform.h"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\simd\common.h
+	"platform.h"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\simd\geometric.h
+	"common.h"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_trigonometric_simd.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\type_half.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_packing_simd.inl
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\simd\integer.h
+
+1498315166 c:\users\w510\videos\pacman\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1498315166 c:\users\w510\videos\pacman\constants.h
+
+1498315166 source:c:\users\w510\videos\pacman\detailed_cube.cpp
+	"detailed_cube.h"
+
+1498315166 c:\users\w510\videos\pacman\detailed_cube.h
+	"model.h"
+
+1498315166 source:c:\users\w510\videos\pacman\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1498315166 c:\users\w510\videos\pacman\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1498370093 source:c:\users\w510\videos\pacman\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	<time.h>
+	<windows.h>
+	<cmath>
+	"constants.h"
+	"allmodels.h"
+	"myCube.h"
+
+1498315166 c:\users\w510\videos\pacman\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1498315166 c:\users\w510\videos\pacman\glm\glm\gtc\constants.inl
+	<limits>
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\quaternion_simd.inl
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1498315168 c:\users\w510\videos\pacman\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1498339472 c:\users\w510\videos\pacman\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+	"moje.h"
+
+1498315166 c:\users\w510\videos\pacman\sphere.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman\teapot.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman\torus.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman\mycube.h
+
+1498315166 source:c:\users\w510\videos\pacman\model.cpp
+	"model.h"
+
+1498315166 source:c:\users\w510\videos\pacman\sphere.cpp
+	"sphere.h"
+
+1498315166 source:c:\users\w510\videos\pacman\teapot.cpp
+	"teapot.h"
+
+1498315166 source:c:\users\w510\videos\pacman\torus.cpp
+	"torus.h"
+
+1498339631 c:\users\w510\videos\pacman\moje.h
+	"model.h"
+
+1498340844 source:c:\users\w510\videos\pacman\moje.cpp
+	"moje.h"
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\cube.cpp
+	"cube.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\cube.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\_swizzle.hpp
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\_swizzle_func.hpp
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec2.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec3.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec4_simd.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x3.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x4.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x2.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x4.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x2.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x3.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x4_simd.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec1.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_vector_relational_simd.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\simd\exponential.h
+	"platform.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\simd\common.h
+	"platform.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\simd\geometric.h
+	"common.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_trigonometric_simd.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_half.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_packing_simd.inl
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\simd\integer.h
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1498315166 c:\users\w510\videos\pacman127287_127286\constants.h
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\detailed_cube.cpp
+	"detailed_cube.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\detailed_cube.h
+	"model.h"
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1498315166 c:\users\w510\videos\pacman127287_127286\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1498370093 source:c:\users\w510\videos\pacman127287_127286\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	<time.h>
+	<windows.h>
+	<cmath>
+	"constants.h"
+	"allmodels.h"
+	"myCube.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\constants.inl
+	<limits>
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\quaternion_simd.inl
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1498315168 c:\users\w510\videos\pacman127287_127286\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1498339472 c:\users\w510\videos\pacman127287_127286\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+	"moje.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\sphere.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\teapot.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\torus.h
+	"model.h"
+
+1498339631 c:\users\w510\videos\pacman127287_127286\moje.h
+	"model.h"
+
+1498315166 c:\users\w510\videos\pacman127287_127286\mycube.h
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\model.cpp
+	"model.h"
+
+1498340844 source:c:\users\w510\videos\pacman127287_127286\moje.cpp
+	"moje.h"
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\sphere.cpp
+	"sphere.h"
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\teapot.cpp
+	"teapot.h"
+
+1498315166 source:c:\users\w510\videos\pacman127287_127286\torus.cpp
+	"torus.h"
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\cube.cpp
+	"cube.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\cube.h
+	"model.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\model.h
+	<vector>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	"constants.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\_swizzle.hpp
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\_swizzle_func.hpp
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec2.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec3.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec4_simd.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x3.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat2x4.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x2.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat3x4.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x2.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x3.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_mat4x4_simd.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_vec1.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_vector_relational_simd.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\simd\exponential.h
+	"platform.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\simd\common.h
+	"platform.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\simd\geometric.h
+	"common.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_trigonometric_simd.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\type_half.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_packing_simd.inl
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\simd\integer.h
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1498318766 g:\users\w510\videos\pacman127287_127286\constants.h
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\detailed_cube.cpp
+	"detailed_cube.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\detailed_cube.h
+	"model.h"
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1498318766 g:\users\w510\videos\pacman127287_127286\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1498373693 source:g:\users\w510\videos\pacman127287_127286\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	<time.h>
+	<windows.h>
+	<cmath>
+	"constants.h"
+	"allmodels.h"
+	"myCube.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\constants.inl
+	<limits>
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\quaternion_simd.inl
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1498318768 g:\users\w510\videos\pacman127287_127286\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1498343072 g:\users\w510\videos\pacman127287_127286\allmodels.h
+	"cube.h"
+	"detailed_cube.h"
+	"sphere.h"
+	"teapot.h"
+	"torus.h"
+	"moje.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\sphere.h
+	"model.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\teapot.h
+	"model.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\torus.h
+	"model.h"
+
+1498343231 g:\users\w510\videos\pacman127287_127286\moje.h
+	"model.h"
+
+1498318766 g:\users\w510\videos\pacman127287_127286\mycube.h
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\model.cpp
+	"model.h"
+
+1498344444 source:g:\users\w510\videos\pacman127287_127286\moje.cpp
+	"moje.h"
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\sphere.cpp
+	"sphere.h"
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\teapot.cpp
+	"teapot.h"
+
+1498318766 source:g:\users\w510\videos\pacman127287_127286\torus.cpp
+	"torus.h"
+
